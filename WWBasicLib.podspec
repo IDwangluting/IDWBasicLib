@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name                  = 'WWBasicLib'
-  s.version               = '0.0.1'
+  s.version               = '0.0.2'
   s.summary               = 'WWBasicLib is tool lib.'
   s.description           = <<-DESC
                                 WWBasicLib is tool lib to use
@@ -25,9 +25,20 @@ Pod::Spec.new do |s|
   s.frameworks            = 'UIKit','Foundation'
   s.source_files          = 'WWBasicLib/Classes/**/*'
   
-  s.dependency 'YYCache'     , '~> 1.0.4'
-  s.dependency 'AFNetworking', '~>3.2.1'
-  s.dependency 'YYModel'     , '~> 1.0.4'
-  s.dependency 'YYCategories', '~> 1.0.4'
+  s.subspec 'NetworkingTool' do |ss|
+    ss.source_files             = 'WWBasicLib/Classes/NetworkingTool/**/*'
+    ss.dependency 'YYCache'     , '~> 1.0.4'
+    ss.dependency 'AFNetworking', '~>3.2.1'
+    ss.dependency 'YYModel'     , '~> 1.0.4'
+    ss.dependency 'YYCategories', '~> 1.0.4'
+  end
+  
+  s.subspec 'Foundation' do |ss|
+     ss.source_files          = 'WWBasicLib/Classes/Foundation/**/*'
+  end
+   
+  s.subspec 'Foundation' do |ss|
+     ss.source_files          = 'WWBasicLib/Classes/Catagroy/**/*'
+  end
 
 end
