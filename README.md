@@ -3,7 +3,7 @@
 
     1. NetworkingTool
         1. WWNetwoorking           网络请求工具
-        2. WWJsonToModelTool   根据url把数据直接转换成模型 
+        2. WWJsonToModelTool       根据url把数据直接转换成协议好的模型 
     2. Foundation
         1. WWOrderedDictionary 排序的字典 
         2. DataHelp                       验证类型的工具
