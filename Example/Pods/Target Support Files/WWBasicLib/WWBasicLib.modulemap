@@ -1,0 +1,6 @@
+framework module WWBasicLib {
+  umbrella header "WWBasicLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

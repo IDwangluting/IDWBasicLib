@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint WWBasicTool.podspec' to ensure this is a
+# Be sure to run `pod lib lint WWBasicLib.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,23 +7,23 @@
 #
 
 Pod::Spec.new do |s|
-  s.name                  = 'WWBasicTool'
+  s.name                  = 'WWBasicLib'
   s.version               = '0.0.1'
-  s.summary               = 'WWBasicTool is tool lib.'
+  s.summary               = 'WWBasicLib is tool lib.'
   s.description           = <<-DESC
-                                WWBasicTool is tool lib to use
+                                WWBasicLib is tool lib to use
                               DESC
 
-  s.homepage              = 'https://github.com/IDwangluting/WWBasicTool'
+  s.homepage              = 'https://github.com/IDwangluting/WWBasicLib'
   s.license               = "Copyright (c) 2018年 wangluitng. All rights reserved."
   s.author                = { 'IDwangluting' => 'm13051699286@163.com' }
-  s.source                = { :git => 'https://github.com/IDwangluting/WWBasicTool.git', :tag => s.version.to_s }
+  s.source                = { :git => 'https://github.com/IDwangluting/WWBasicLib.git', :tag => s.version.to_s }
   # s.social_media_url    = 'https://twitter.com/<TWITTER_USERNAME>'
   # s.screenshots         = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
 
   s.ios.deployment_target = '8.0'
   s.frameworks            = 'UIKit','Foundation'
-  s.source_files          = 'WWBasicTool/Classes/**/*'
+  s.source_files          = 'WWBasicLib/Classes/**/*'
   
   s.dependency 'YYCache'     , '~> 1.0.4'
   s.dependency 'AFNetworking', '~>3.2.1'

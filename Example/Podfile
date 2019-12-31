@@ -4,7 +4,6 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'WWBase_Example' do
-      pod 'WWBasicTool', :path => '../'
+      pod 'WWBasicLib', :path => '../'
       pod 'MMKV'        ,'~>1.0.23'
-      pod 'WWBaseLib'
 end
