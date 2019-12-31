@@ -1,0 +1,6 @@
+framework module WWBasicTool {
+  umbrella header "WWBasicTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
