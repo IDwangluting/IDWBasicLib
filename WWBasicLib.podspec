@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
                               DESC
 
   s.homepage              = 'https://github.com/IDwangluting/WWBasicLib'
-  s.license               = "Copyright (c) 2018年 wangluitng. All rights reserved."
+  s.license               = 'MIT'
   s.author                = { 'IDwangluting' => 'm13051699286@163.com' }
   s.source                = { :git => 'https://github.com/IDwangluting/WWBasicLib.git', :tag => s.version.to_s }
   # s.social_media_url    = 'https://twitter.com/<TWITTER_USERNAME>'
